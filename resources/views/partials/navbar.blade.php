@@ -28,6 +28,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('information.index') }}">Information</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('create') }}">Ajouter profile</a>
+                    </li>
                 </ul>
             </div>
         </nav>

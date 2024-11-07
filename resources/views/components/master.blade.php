@@ -15,6 +15,8 @@
     @include('partials.navbar')
 
     <main>
+        @include('partials.flash-bag')
+
         <div class="container">
             {{ $slot }}
         </div>

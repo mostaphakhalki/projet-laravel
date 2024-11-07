@@ -9,7 +9,6 @@
                     <th>bio</th>
                     <th>email</th>
                     <th>Action</th>
-
                 </tr>
             </thead>
             <tbody>
@@ -24,7 +23,8 @@
                 @endforeach
             </tbody>
         </table>
+        <div class="d-flex justify-content-center pt-4">
         {{ $profileData->links() }}
-
+    </div>
     </div>
 </x-master>
